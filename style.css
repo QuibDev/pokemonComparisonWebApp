@@ -1,0 +1,157 @@
+h1 {
+  font-family: "Orbitron";
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 5%;
+  z-index: 1;
+}
+
+h2 {
+  font-family: "Orbitron";
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  z-index: 1;
+}
+
+.card-title {
+  padding: auto;
+  align-self: center;
+  align-content: center;
+  font-size: 24px;
+}
+
+.card-img {
+  padding: auto;
+}
+
+p {
+  font-size: 18px;
+  padding-left: 5%;
+}
+
+.form-label {
+  font-size: 21px;
+}
+
+.form-control {
+  font-size: 21px;
+}
+
+.container {
+  width: 100%;
+  perspective: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.comparision-result-character1 {
+  justify-content: center;
+  align-items: center;
+  max-width: 35%;
+  justify-content: center;
+  align-items: center;
+}
+
+.comparision-button-column {
+  padding: 10%;
+  max-width: 35%;
+}
+
+.comparision-result-character2 {
+  justify-content: center;
+  align-items: center;
+  max-width: 35%;
+  justify-content: center;
+}
+
+.pokemon-details-card {
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2), 0 10px 20px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease;
+}
+
+.pokemon-details-card:hover {
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.2), 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+body {
+  font-family: "Orbitron", sans-serif;
+  background-color: #000;
+  color: #212121;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+  z-index: -1;
+}
+
+.btn-primary {
+  background-color: #f1c40f;
+  border-color: #f1c40f;
+  color: #222;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer p {
+  margin-right: 10px;
+}
+
+.footer a {
+  font-size: 24px;
+  color: black;
+  margin-left: 10px;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #d2d1d0;
+  border-color: #d2d2d2;
+  color: #222;
+}
+
+.container-center {
+  width: 50%;
+  margin-bottom: 10%;
+}
